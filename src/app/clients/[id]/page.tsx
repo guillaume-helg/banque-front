@@ -44,7 +44,7 @@ const ClientDetailsPage = () => {
     fetchClientDetails();
   }, [id]);
 
-  const handleCreateAccount = async (e: React.FormEtag) => {
+  const handleCreateAccount = async (e: React.FormEvent) => {
     e.preventDefault();
     setError('');
 
